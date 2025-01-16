@@ -1,0 +1,41 @@
+
+/* CSS follows the structure of a "selector" (what elements the style will apply to) and declarations
+, which declare the properties to apply */
+
+* {
+    color: green    
+}
+
+div {
+    color: white
+}
+
+.my-test-class {
+    color: red
+}
+
+#a-random-id {
+    background-color: red;
+}
+
+/* Group selectors. The styles will apply to both these selectors */
+.shared-class-a,
+.shared-class-b {
+    color: red;
+    background-color: blue;
+}
+
+/* Chain selectors */
+.parent-class.child-class {
+    color: blue
+}
+
+/* Descendant combinator. No matter how nested the deep-child is under ancestor, this style will always apply */
+.ancestor .deep-child {
+    padding: 100px;
+}
+
+#root-div .child-class {
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+}

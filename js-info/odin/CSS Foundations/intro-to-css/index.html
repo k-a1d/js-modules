@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intro to CSS</title>
+
+        <!-- Some internal CSS -->
+        <style>
+            div {
+                color: red
+            }
+        </style>
+
+        <link rel="stylesheet" href="./intro.css">
+    </head>
+
+    <body>
+        <div id="root-div">
+            <div id="child-div">
+                <p class="child-class">This be PINK</p>        
+            </div>
+        </div>
+        <p class="child-class">This should be GREEN</p>        
+        <!-- This is inline CSS -->
+        <p style="color: brown">This should be BROWN</p>
+    </body>
+</html>

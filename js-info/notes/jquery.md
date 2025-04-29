@@ -1,0 +1,2 @@
+- jQuery was created to make it easier/simplier to achieve certain things with JS. For example, something that might require multiple lines in JS was wrapped as a single method in jQuery.
+- jQuery is becoming obsolete, as JS has been adding native support for a lot of the things that jQuery provided.

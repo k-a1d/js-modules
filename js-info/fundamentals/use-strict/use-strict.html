@@ -1,10 +1,14 @@
 <!--
-"Use strict" is used to ensure javascript code works the "modern way"
-It only applies to everything below it
+"use strict" is used to ensure javascript code works the "modern way". The JS interpreter is able to make more optimisations on 
+strict mode compared to non-strict code. This can improve the efficiency of JS functions.
+
+The "use strict" only applies to everything below it
 -->
 
 <script>
-    alert("some code"); // Strict mode is not activated for this line
+    alert("some code"); // Strict mode IS NOT activated for this line
 
-    "use strict"; // Strict mode is activated for all lines below
+    "use strict"; // Active for all lines below
+
+    alert("some code"); // Strict mode IS activated for this line
 </script>

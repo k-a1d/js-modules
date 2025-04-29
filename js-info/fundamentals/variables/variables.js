@@ -1,7 +1,7 @@
 let admin;
-let name;
+let nm;
 
-name = "John";
-admin = name;
+nm = "John";
+admin = nm;
 
 alert(admin);
